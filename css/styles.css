@@ -160,8 +160,7 @@ image {
     background: #404bbf;   
 }
 
-.contacts {
-   
+.contacts {  
     font-size: 12px;
     line-height: 1.3;
     letter-spacing: 0.02em;
@@ -323,6 +322,7 @@ image {
         .link-logo {
             margin-right: 120px;
         }
+        
     }
 
 @media only screen and (min-width: 1158px) {
@@ -661,16 +661,12 @@ button {
         flex-direction: row;
         flex-wrap: wrap; 
         align-items: center;
+        justify-content: center;
         gap: 64px 24px;
+        flex-basis: calc((100% - 24px ) / 2);
        
   }
-  .section-team-item {
-    
-    /*width: 264px;
-    height: 428px;*/
-    flex-basis: calc((100% - 24px ) / 2);
-    
-  }
+ 
  
 }
 
@@ -777,12 +773,12 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    gap: 72px;
 }
 
 .footer-logo {
     text-align: center;
-    margin-bottom: 72px;
+    
 }
 
 .footer-link-logo {
@@ -802,15 +798,13 @@ button {
 
 .footer-text {
     text-align: left;
-    
+    width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;     
 }
 
-.footer-social {
-    margin-bottom: 72px;
-}
+
 
 .social-text {
     text-align: center;
@@ -849,7 +843,7 @@ button {
    | Subscribe
    |============================
  */
-
+ 
 .sbscr-title {
     text-align: center;
     font-weight: 500;
@@ -863,11 +857,14 @@ button {
 .sbscr-input {
     display: flex;
     align-items: center;
+    
+    gap: 16px;
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #FFFFFF;   
+    color: #FFFFFF;  
+
 }
 
 .footer-input-email {
@@ -879,15 +876,13 @@ button {
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     outline: transparent;
-   /* margin-right: 24px;*/
     position: relative;
     margin-bottom: 16px;
 }
 
 
 .footer-sbscr-btn {
-    padding: 8px 24px;
-    gap: 16px;    
+    padding: 8px 24px;   
     background: #4D5AE5;
     border: #4D5AE5;
     font-weight: 500;
@@ -908,9 +903,29 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-   {
+   .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap:  72px;
+    align-items: baseline;
+  }
+  .footer-logo {
+    text-align: left;
+  }
+  .social-text {
+    text-align: left;
+  }
+  .footer-social {
+    margin-right: 164px;
+  
+  .sbscr-title {
+    text-align: left;
+     
     
   }
+
 }
 
 
@@ -997,11 +1012,6 @@ button {
  .logo-text {
         color: #2E2F42;
 }
-
-
-/*---Header---*/
-
-
 
 /*---BUTTON---*/
 
