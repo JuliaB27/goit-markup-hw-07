@@ -120,9 +120,7 @@ image {
     gap: 12px;
 }
 
-.contacts:hover, .contacts:focus {
-    color: #404bbf;
-}
+
 
 .header-container, .header-nav{
     display: flex;
@@ -171,19 +169,13 @@ image {
     cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts:hover, 
-.contacts:focus {
-    color: #404bbf;
-}
+
  
 .link {
    text-decoration: none;
 }
 
-.header-item-link:hover, 
-.header-item-link:focus {
-    color: #404bbf;
-}
+
 
 .menu-open-btn {
     background-color: transparent;
@@ -337,6 +329,15 @@ image {
         font-size: 16px;
         line-height: 1.5;
     }
+    
+    .contacts:hover, .contacts:focus {
+        color: #404bbf;
+    }
+    .header-item-link:hover, 
+    .header-item-link:focus {
+    color: #404bbf;
+}
+ 
 }
 
  /* --Hero image--*/
@@ -917,15 +918,15 @@ button {
   .social-text {
     text-align: left;
   }
-  .footer-social {
+ /* .footer-social {
     margin-right: 164px;
-  
+  }
   .sbscr-title {
     text-align: left;
      
     
   }
-
+*/
 }
 
 
