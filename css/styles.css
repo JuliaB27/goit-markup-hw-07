@@ -778,8 +778,7 @@ button {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 268px; /**/
-   /* flex-direction: column;*/
+    max-width: 268px;
     justify-content: center;
     gap: 72px;
 }
@@ -830,7 +829,7 @@ button {
 .socials-items {
     width: 40px;
     height: 40px;   
-    transition: background-color var(--transition--dur-timing-function);     
+         
 }
 
 .footer-socials-link {
@@ -841,8 +840,7 @@ button {
     height: 100%;
     background-color: var(--button-color);
     border-radius: 50%;
-    transition: background-color var(--transition--dur-timing-function);
-}
+} 
 
  /**
    |============================
@@ -872,7 +870,6 @@ button {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #FFFFFF;  
-
 }
 
 .footer-input-email {
@@ -950,11 +947,8 @@ button {
 @media only screen and (min-width: 1158px) {
    .footer-container {
     flex-wrap: nowrap;
-    
     gap: 0;
-    max-width: 1128px;
-    
-    
+    max-width: 1128px;   
   }
   .footer-logo {
     margin-right: 120px;
@@ -977,6 +971,9 @@ button {
 
 .footer-socials-link {
     transition: background-color var(--transition--dur-timing-function);
+}
+.footer-socials-link:hover, .footer-socials-link:focus {
+    background: #31D0AA;
 }
 }
 
