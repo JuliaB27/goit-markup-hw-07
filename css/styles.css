@@ -776,6 +776,9 @@ button {
         border-color: #404bbf;
         color: #404bbf;
     }
+    .section-container {
+    width: 1128px;
+}
 }
 
 
