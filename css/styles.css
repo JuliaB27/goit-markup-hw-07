@@ -252,15 +252,16 @@ image {
     color: #2E2F42;
 }
 
-.mob-contact {
-    color:  #404BBF;;
-}
+
 
 .mob-contact-list {
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-bottom: 48px;
+}
+.mob-studio {
+    color: #404BBF;;
 }
 
 .mob-contact-link-tel {
@@ -749,7 +750,12 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-
+    
+.customers-list {
+    
+    gap: 72px 24px;
+    
+}
     
 .customers-list-item {
     width: 168px;
@@ -968,7 +974,8 @@ button {
     display: flex;
     flex-wrap: nowrap;
     gap: 0;
-    max-width: 1128px;   
+    max-width: 1158px; 
+    padding-left: 0;
   }
   .footer-logo {
     margin-right: 120px;
